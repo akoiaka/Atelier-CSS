@@ -1,10 +1,58 @@
+.navbar{
+    border: none;
+}
+.navbar-default .navbar-toggle:focus{
+    background-color: black;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: black;
+}
+.navbar-default .navbar-toggle{
+    border: none;
+}
+.noir{
+    background-color: black;
+    padding: 10px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #71818B ;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+}
+.navbar-default .navbar-brand{
+    color: #71818B ;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a{
+    background-color: #FE7877 ;
+    color: white;
+}
+.cercle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #FE7877 ;
+    border-radius: 50%;
+}
+.fa-envelope-o{
+    margin-left: 15px;
+    margin-top: 18px;
+    color: #71818B ;
+}
+
+/* CSS INITIAL police raleawy*/
+
 .section_2 {
     display:flex;
     align-content:center;
     text-align:center;
     justify-content:center;
 }
-
 .wikicoda {
     background-image: url("./images/header-bg.jpg");
     height: 500px;

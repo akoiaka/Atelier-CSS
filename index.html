@@ -12,40 +12,62 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="container-fluid">
-                <!-- navbar header section -->
+        <!--<nav class="navbar navbar-inverse" role="navigation">-->
+            <!--<div class="container-fluid">-->
+                <!--&lt;!&ndash; navbar header section &ndash;&gt;-->
+                <!--<div class="navbar-header">-->
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">-->
+                        <!--<span class="sr-only">Toggle navigation</span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                        <!--<span class="icon-bar"></span>-->
+                    <!--</button>-->
+                    <!--<a class="navbar-brand" href="#">WikiCOda</a>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; navbar menu section &ndash;&gt;-->
+                <!--<div class="collapse navbar-collapse navbar-responsive-collapse">-->
+                    <!--<ul class="nav navbar-nav">-->
+                        <!--<li><a href="#">Accueil</a></li>-->
+                        <!--<li class="dropdown">-->
+                            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">À Propos<b class="caret"></b></a>-->
+                            <!--<ul class="dropdown-menu">-->
+                                <!--<li><a href="#">Service</a></li>-->
+                                <!--<li><a href="#">Portfolio</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
+                        <!--<li><a href="#">Enveloppe</a></li>-->
+                    <!--</ul>-->
+
+                    <!--&lt;!&ndash; search form &ndash;&gt;-->
+                    <!--<form class="navbar-form navbar-right">-->
+                        <!--<input type="text" class="form-control" placeholder="Search">-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</nav>-->
+
+        <nav class="noir navbar navbar-default">
+            <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">WikiCOda</a>
+                    <a class="navbar-brand" href="#">WikiC<div class="cercle"></div>da</a>
                 </div>
-                <!-- navbar menu section -->
-                <div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Accueil</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">À Propos<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Enveloppe</a></li>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="./">Accueil <span class="sr-only">(current)</span></a></li>
+                        <li><a href="./">A Propos</a></li>
+                        <li><a href="./">Service</a></li>
+                        <li><a href="./">Portfolio <span class="sr-only">(current)</span></a></li>
+                        <i class="fa fa-envelope-o"></i>
                     </ul>
-
-                    <!-- search form -->
-                    <form class="navbar-form navbar-right">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </form>
                 </div>
             </div>
         </nav>
-
     </header>
     <section class="wikicoda">
         <p style="text-align: center">
